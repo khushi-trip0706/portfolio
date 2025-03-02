@@ -120,6 +120,20 @@ section{
     }
 }
 
+@media (max-width: 768px){
+    .home{
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-content, .home-img{
+        min-width: 100%;
+    }
+    .home-img img{
+        width: 70vw;
+        margin-top: 4rem;
+    }
+}
+
 
 .home-content h3{
     font-size: 3.2rem;
